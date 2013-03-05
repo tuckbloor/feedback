@@ -1,0 +1,37 @@
+ label {
+ 	float: left;
+ 	width: 140px;
+ 	margin-right: 10px;
+ 	text-align: right;
+ }
+
+ input[type="text"] , select, textarea {
+ 	margin-bottom: 5px;
+ 	width: 250px;
+ }
+
+ #feedback-form {
+ 	width: 500px;
+ 	background-color: #f3f3f3;
+ 	padding: 20px 0;
+ 	border-radius: 10px;
+ 	margin-bottom: 20px;
+ }
+
+ .float {
+ 	float: left;
+ 	margin-right: 10px;
+ }
+
+ .comments {
+ 	width: 450px;
+ 	background-color: #F3F3F3;
+ 	padding: 10px;
+ 	margin-bottom: 10px;
+ }
+
+ .image {
+ 	background-color: #FFFFFF;
+ 	padding: 10px;
+ 	border: solid 1px #333333;
+ }

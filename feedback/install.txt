@@ -1,0 +1,20 @@
+Rich Snippet Reviews Installation Guide
+
+1) Drop The Feedback folder into your root directory
+2) make sure the config.php file is writable
+3) visit www.yourdomain.com/feedback/install.php replace your domain with your actual domain name
+4) follow the 2 simple stages that are required to set up the database and emails settings
+5) delete the install.php file
+6) make sure that config is no longer writable
+7) In the <head> of your website add the CSS and The Jquery js
+
+<script type="text/javascript" src="feedback/js/jquery-1.8.3.min.js"></script>
+<link href="feedback/css/feedback.css" style="text/css" rel="stylesheet" />
+
+8) Where You would like the feedback to show add the following into the <body> area of your website
+
+<?php
+include "feedback/feedback.php";
+?>
+
+9) That  it you done.
